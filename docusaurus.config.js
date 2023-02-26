@@ -56,7 +56,18 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  
     ({
+
+
+      // This item forces dark mode; remove to restore light mode by default
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+
+
       navbar: {
         title: 'UtilityX User Guide',
         logo: {
