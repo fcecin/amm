@@ -130,8 +130,8 @@ const config = {
                 href: 'https://github.com/eosnetworkfoundation/ibc-contracts',
               },*/
               {
-                label: '0rigin',
-                href: 'https://0rigin.one/',
+                label: 'UX Network',
+                href: 'https://uxnetwork.io/',
               },
             ],
           },
