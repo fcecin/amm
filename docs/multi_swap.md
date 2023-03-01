@@ -96,7 +96,7 @@ That will mean the multi-swap is done, and we can now inspect the multi-swap rep
 
 ## Check multi-swap report
 
-The procedure for checking the report is the same as described for the AMM Swap in the previous section. Here is the report from the multi-swap example:
+The procedure for checking the report is the same as described for the AMM Swap in the previous section: just click on the trade history icon at the top right of the page and locate your multi-swap transfer order. Here is the report from the multi-swap example:
 
 ![](fig/mswap_report.png)
 
