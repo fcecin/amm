@@ -8,23 +8,23 @@ This section explains what Liquidity Providers are and how liquidity works in th
 
 ## What is a Liquidity Provider?
 
-FIXME LP is when tokens thrown into the pool and you obtain a token that represents a share of the pool then the pool does swap for other people and the pool retains some of the tokens and so your LP share is worth more and more tokens and the interface knows how to compute an estimate APY and dollar value of your shares out of that and show it to you on the liquidity positions tab.
+**FIXME** _LP is when tokens thrown into the pool and you obtain a token that represents a share of the pool then the pool does swap for other people and the pool retains some of the tokens and so your LP share is worth more and more tokens and the interface knows how to compute an estimate APY and dollar value of your shares out of that and show it to you on the liquidity positions tab._
 
 ## Why provide liquidity on UtilityX?
 
-FIXME Being an LP in UtilityX is awesome because: bullet points list, advanced options, easy to use, antelope no fee, antelope fast, batch auction, etc.
+**FIXME** _Being an LP in UtilityX is awesome because: bullet points list, advanced options, easy to use, antelope no fee, antelope fast, batch auction, etc._
 
-## The LP token(s)
+## The LP pool share tokens
 
-FIXME Explain what the various LP tokens are, they are shares of pools, and you can actually transfer them around and negotiate them, why wouldn't you be able to do that?
+**FIXME** _Explain what the various LP tokens are, they are shares of pools, and you can actually transfer them around and negotiate them, why wouldn't you be able to do that?_
 
 ## The UFX token
 
-FIXME Explain what UFX is: it's a nice token to have because fees when certain pools
+**FIXME** _Explain what UFX is: it's a nice token to have because fees when certain pools_
 
-## The types of pools
+## Types of pools
 
-FIXME You provide liquidity to a specific pool that you have to choose. Explain the different types of pools you can choose to stake (be an LP) to (multipool > 2 assets, pair pools vs. UFX); that they give out different LP tokens and the relationship to the UFX token.
+**FIXME** _You provide liquidity to a specific pool that you have to choose. Explain the different types of pools you can choose to stake (be an LP) to (multipool > 2 assets, pair pools vs. UFX); that they give out different LP tokens and the relationship to the UFX token._
 
 ## Example
 
