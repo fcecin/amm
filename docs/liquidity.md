@@ -12,7 +12,9 @@ A Liquidity Provider (LP), in the context of Automated Market Makers (AMMs) like
 
 The idea is that the tokens deposited by the LP into the AMM provide _liquidity_ to the automated market. As the liquidity of an AMM increases it can absor and process more and larger buy and sell orders for the various assets it offers.
 
-LPs on UtilityX deposit their tokens in one or more _liquidity pools_, and they obtain a _share_ of the pool, in the form of LP tokens (the actual token symbol varies; each pool issues its own pool share token). As the pool performs token swaps to users, it retains a fee in the form of one or more tokens that it supports. Thus, all other parameters being equal, the value of the pool share would tend to increase as every trade pays a fee to the growing pool.
+LPs on UtilityX deposit their tokens in one or more _liquidity pools_, and they obtain a _share_ of the pool, in the form of LP tokens (the actual token symbol varies; each pool issues its own pool share token). As the pool performs token swaps to users, it retains a fee in the form of one or more tokens that it supports. This will tend to increase the values of the shares of the pool, that is, of its LP tokens. 
+
+For example, if there is a total supply of 100,000 LP tokens for a pool, and you hold 2,000 LP tokens, you will earn 2% of the swap (trading) fees that are allocated to the LPs of that pool. As an LP acquires a larger percentage of the token pool itself, they also acquire a larger percentage of the total trading fees.
 
 ## Example
 

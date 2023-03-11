@@ -16,13 +16,13 @@ Basically, token bridging begins by _locking_ a quantity of tokens on the token'
 
 For example, the `UTX` token is native to the UX Network blockchain, but through the UtilityX Bridge, it can be transferred to the EOS blockchain. So, for example, if you have `10 UTX` tokens available on an account `myutxaccount` in the UX Network, you can send them to the bridge, where they are locked. Then, on the chosen destination chain, such as the EOS blockchain, you also choose a destination account there, such as `myeosaccount`. The bridge will then issue `10 UTX` on the EOS network, and deposit those tokens on that EOS account.
 
-In this example, it is important to note that the bridged `UTX` tokens on an EOS blockchain account are really tokens that are on the EOS blockchain. So, for example, you can't take `UTX` tokens on an EOS account and stake them for your UX Network account. Nevertheless, these `UTX` tokens on the EOS network are equivalent to the native `UTX` tokens that were locked (taken out of circulation) on the UX Network side of the bridge. For all intents and purposes, both the native and bridged versions of `UTX` tokens, regardless of the blockchain they are in, will have the same trade value.
+In this example, it is important to note that the bridged `UTX` tokens on an EOS blockchain account are really tokens that are on the EOS blockchain. So, for example, you can't take `UTX` tokens on an EOS account and stake them for your UX Network account. Nevertheless, these `UTX` tokens on the EOS network are equivalent to the native `UTX` tokens that were locked (taken out of circulation) on the UX Network side of the bridge.
 
 The bridge also allows you to return bridged tokens to their source blockchain. For example, you can send bridged `UTX` tokens from your EOS blockchain account to your UX Network account. In that case, the bridge will retire (burn, destroy) the bridged `UTX` on EOS, and unlock the corresponding amount of native `UTX` tokens on the UX Network.
 
 The blockchain technology underlying the UtilityX Bridge is called Antelope Inter-Blockchain Communication (IBC). You can read the in-depth technical documentation of Antelope IBC [here](https://ibc-docs.uxnetwork.io/).
 
-## Planning a token bridging operation
+## Before you bridge
 
 To use the UtilityX Bridge, you need to go through the following checklist first:
 

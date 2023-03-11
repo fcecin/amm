@@ -34,7 +34,7 @@ The difference is that in balanced mode, you will be returned an equal share (in
 
 ## Remove liquidity
 
-The example in the figure below is an unbalanced liquidity removal request that will forfeit `10 LP` shares of the `mainpool` pool, and get the pool withdrawal as `30% UTX`, `30% UTXRAM` and `40% EOS` (the other two tokens in the example pool, `TLOS` and `WAX`, are left with a percentage of zero).
+The example in the figure below is an unbalanced liquidity removal request that will redeem `10 LP` shares of the `mainpool` pool, and get the pool withdrawal as `30% UTX`, `30% UTXRAM` and `40% EOS` (the other two tokens in the example pool, `TLOS` and `WAX`, are left with a percentage of zero).
 
 ![](fig/liquidity_remove_unbalanced.png)
 
