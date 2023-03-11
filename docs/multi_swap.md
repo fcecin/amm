@@ -48,7 +48,7 @@ Click on **Continue** to close the window. The tokens and amounts you have selec
 
 ![](fig/mswap_tokens_send_ok.png)
 
-The helpful unclickable button at the bottom of the form is reminding us that _Percentages need to add up to 100%_. This refers to the token percentages we will set when we select the tokens to _receive_, which we will attend to next.
+The unclickable button at the bottom of the form is reminding us that _Percentages need to add up to 100%_. This refers to the token percentages we will set when we select the tokens to _receive_, which we will attend to next.
 
 Click on the **Select Tokens** button under the **Receive** section of the form.
 
