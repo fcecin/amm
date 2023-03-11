@@ -18,8 +18,6 @@ This should open the AMM Swap page, which will allow us to perform our trade:
 
 ![](fig/amm_swap.png)
 
-> **_NOTE:_** In the above screen image, a warning message that reads _No bridged EOS available_ can be read on the bottom right of the page. Bridged EOS in this case means a quantity of native `EOS` tokens that have been transported from the EOS blockchain to the UX Network. A token is said to be _bridged_ or _wrapped_ when it represents a native token from another blockchain. In this case, this means a quantity of `EOS` tokens on the UX Network which would be therefore the _bridged_ (wrapped) version of some quantity of native `EOS` tokens that have been locked in the EOS network and transported to your account in the UX Network through inter-blockchain token bridging, becoming bridged `EOS` that can then be traded normally on the UX Network like you would do with any other native token of the UX Network, such as the `UTX` and `UTXRAM` tokens.
-
 ## Select liquidity pool
 
 All AMM operations on UtilityX are performed against a _liquidity pool_, or just _pool_ for short. AMM pools are essentially containers of arbitrary quantitites of tokens, provided by _liquidity providers_. The default pool offered by the AMM Swap page by default should be good enough for this first swap, but you can explore the available pools and select the pool to use on your own by clicking the pool selection box (in the example screen image above, it is the one that reads `mainpool (5 Tokens)`, but your default selected pool may be different.
