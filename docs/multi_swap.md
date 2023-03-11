@@ -32,7 +32,7 @@ After you have selected a suitable multi-swap pool to use, it is time to select 
 
 You now have to select the tokens you want to _send_ to the pool (sell) and the tokens you want to _receive_ from the pool in return (buy). The tokens available for selection are, of course, the tokens supported by the multi-swap pool you have selected.
 
-In this example we will assume you have some liquid amount of both `UTX` and `UTXRAM` tokens, but you can use any token supported by the liquidity pool you have selected.
+In this example, we will assume you have some liquid amount of both `UTX` and `UTXRAM` tokens, but you can use any token supported by the liquidity pool you have selected.
 
 By default, no tokens are selected to be sent, as can be seen in the empty **Send** area of the form, and no tokens are selected to be received, as can be seen in the empty **Receive** area of the form:
 
@@ -62,11 +62,11 @@ Click on **Continue** to close the window. The tokens and ratios you have select
 
 ## Review order summary
 
-Before proceeding to executing the trade, you may want to see the summary of the proposed trade. To do that, click on any one of the **Summary View** links to the right-side of the form. Below we can see the summary view of the example trade we are setting up:
+Before proceeding to executing the trade, you may want to see the summary of the proposed trade. To do that, click on any one of the **Summary View** links to the right-side of the form. Below, we can see the summary view of the example trade we are setting up:
 
 ![](fig/mswap_tokens_summary.png)
 
-Now that we are satisfied with the trade that we have have set up we will proceed to execute it.
+Now that we are satisfied with the trade that we have set up, we will proceed to execute it.
 
 ## Execute multi-swap
 

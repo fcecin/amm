@@ -56,7 +56,7 @@ Clicking **Execute** will prompt you to sign a transaction on your Web3 wallet. 
 
 ![](fig/liquidity_add_wait.png)
 
-Once the operation is complete, an information box will apppear in the bottom right:
+Once the operation is complete, an information box will appear in the bottom right:
 
 ![](fig/liquidity_add_done.png)
 

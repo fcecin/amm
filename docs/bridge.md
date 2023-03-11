@@ -16,7 +16,7 @@ Basically, token bridging begins by _locking_ a quantity of tokens on the token'
 
 For example, the `UTX` token is native to the UX Network blockchain, but through the UtilityX Bridge, it can be transferred to the EOS blockchain. So, for example, if you have `10 UTX` tokens available on an account `myutxaccount` in the UX Network, you can send them to the bridge, where they are locked. Then, on the chosen destination chain, such as the EOS blockchain, you also choose a destination account there, such as `myeosaccount`. The bridge will then issue `10 UTX` on the EOS network, and deposit those tokens on that EOS account.
 
-In this example, it is important to note that the bridged `UTX` tokens on an EOS blockchain account are really tokens that are on the EOS blockchain. So, for example, you can't take `UTX` token on an EOS account and stake them for your UX Network account. Nevertheless, these `UTX` tokens on the EOS network are equivalent to the native `UTX` tokens that were locked (taken out of circulation) on the UX Network side of the bridge. For all intents and purposes, both the native and bridged versions of `UTX` tokens, regardless of the blockchain they are in, will have the same trade value.
+In this example, it is important to note that the bridged `UTX` tokens on an EOS blockchain account are really tokens that are on the EOS blockchain. So, for example, you can't take `UTX` tokens on an EOS account and stake them for your UX Network account. Nevertheless, these `UTX` tokens on the EOS network are equivalent to the native `UTX` tokens that were locked (taken out of circulation) on the UX Network side of the bridge. For all intents and purposes, both the native and bridged versions of `UTX` tokens, regardless of the blockchain they are in, will have the same trade value.
 
 The bridge also allows you to return bridged tokens to their source blockchain. For example, you can send bridged `UTX` tokens from your EOS blockchain account to your UX Network account. In that case, the bridge will retire (burn, destroy) the bridged `UTX` on EOS, and unlock the corresponding amount of native `UTX` tokens on the UX Network.
 
@@ -72,7 +72,7 @@ In our example, we will be sending `20 UTX` tokens, which is adequate, given tha
 
 ![](fig/bridge_token_amount.png)
 
-After making sure that we have enough resources staked on both blockhain accounts, we are ready to execute the token bridging operation.
+After making sure that we have enough resources staked on both blockchain accounts, we are ready to execute the token bridging operation.
 
 ## Start token transfer process
 
@@ -92,7 +92,7 @@ What we are doing here is waiting for the transaction sent to the source chain t
 
 ## Submit proof to destination
 
-When finality is achieved on the source chain, the UtilitX interface will display the following information box on the bottom right:
+When finality is achieved on the source chain, the UtilityX interface will display the following information box on the bottom right:
 
 ![](fig/bridge_wait_proofs.png)
 
@@ -118,11 +118,11 @@ We can see the example bridging operation we just carried out in the above pictu
 
 ## Completing interrupted transfers
 
-In the example below, we have attempted another transfer of `10 UTX` from the UX Network to the Telos network, but we have closed our web browser window a few seconds after we requested the transfer. We exited the UtilityX platform while waiting finalization on the source chain, which has prevented us from being able to sign the final transaction on the destination chain that would complete the bridging process. This causes the bridging operation to be in an incomplete state, and once we open UtilityX again, the operation will show up on the Previous Transactions tab with a status of **Failed**, like this:
+In the example below, we have attempted another transfer of `10 UTX` from the UX Network to the Telos network, but we have closed our web browser window a few seconds after we requested the transfer. We exited the UtilityX platform while waiting for finalization on the source chain, which has prevented us from being able to sign the final transaction on the destination chain that would complete the bridging process. This causes the bridging operation to be in an incomplete state, and once we open UtilityX again, the operation will show up on the Previous Transactions tab with a status of **Failed**, like this:
 
 ![](fig/bridge_previous_retry.png)
 
 If a bridging transfer has failed for whatever reason, you will be able to find it in the Previous Transactions tab with a Failed status, as shown in the above example. To resume the failed bridging operation, just click the **Retry** button. The retry process is identical to the normal process; it will just pick up where it left off.
 
-> **IMPORTANT:** For UtilitX to be able to find your briding transaction history, you must be logged in to both accounts, on both endpoints of the transfer, specifically using the Bridge form to do so. UtilityX Bridge cannot find your bridging transaction history if you are just logged in on the main website, using the log in link at the top right of the page. To find the specific bridging transaction history that you are looking for, you have to go to the Bridge page, select both blockchains (in the correct source and destination order) and log in to both accounts so that the Previous Transactions tab can show your bridging history for those two blockchains and those two accounts, specifically.
+> **IMPORTANT:** For UtilityX to be able to find your bridging transaction history, you must be logged in to both accounts, on both endpoints of the transfer, specifically using the Bridge form to do so. UtilityX Bridge cannot find your bridging transaction history if you are just logged in on the main website, using the log in link at the top right of the page. To find the specific bridging transaction history that you are looking for, you have to go to the Bridge page, select both blockchains (in the correct source and destination order) and log in to both accounts so that the Previous Transactions tab can show your bridging history for those two blockchains and those two accounts, specifically.
 
